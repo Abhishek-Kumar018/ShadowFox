@@ -96,3 +96,46 @@ pip install requests beautifulsoup4
 
   * **`requests`**: A popular library for making HTTP requests to fetch web pages.
   * **`bs4` (BeautifulSoup)**: A library for parsing HTML and XML documents, making it easy to extract data from web pages.
+
+
+
+# Advanced Level Python Scripts
+
+This folder contains an advanced Python script for analyzing cricket fielding performance.
+
+-----
+
+## 📜 File Descriptions
+
+### **fielding\_analysis.py**
+
+This script is a comprehensive tool for recording and analyzing cricket fielding data.
+
+  * **Data Input**: It interactively prompts the user to enter detailed information for each ball fielded, including:
+      * Player name
+      * Match and innings details
+      * Fielding position
+      * Specific actions like "Clean Pick," "Catch," "Run Out," etc.
+      * Runs saved or conceded.
+  * **Performance Score (PS)**: A unique "Performance Score" is calculated for each fielding action based on a weighted system. For example, a catch is worth 10 points, while a dropped catch results in a penalty of -5 points.
+  * **Data Storage**: The collected data is saved into an Excel file named `Cricket_Fielding_Analysis.xlsx`.
+  * **Analysis and Visualization**:
+      * It generates a summary of each player's total Performance Score.
+      * It creates a bar chart to visually represent and compare the fielding performances of different players.
+
+### **Cricket\_Fielding\_Analysis.xlsx - Sheet1.csv**
+
+This is an **example CSV file** showing the kind of data that the `fielding_analysis.py` script generates and works with. It provides a snapshot of the data structure, including columns for player names, actions, and the calculated Performance Score (PS).
+
+-----
+
+## 📦 Packages & Dependencies
+
+This script relies on the following third-party Python packages. You can install them using `pip`:
+
+```bash
+pip install pandas matplotlib
+```
+
+  * **`pandas`**: Used for creating and managing the data in a DataFrame, which is then used for analysis and for saving the data to an Excel file.
+  * **`matplotlib.pyplot as plt`**: Used for creating the bar chart to visualize the player performance summary.
