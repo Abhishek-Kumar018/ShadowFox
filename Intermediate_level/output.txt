@@ -1,0 +1,19 @@
+Wikipedia Person Information
+---------------------------
+Full Name: Albert Einstein
+
+Birth Information:
+  Date: 1879-03-14
+  Place: 14 March 1879 Ulm , Kingdom of Württemberg , German Empire
+
+Death Date: 18 April 1955 (1955-04-18) (aged 76) Princeton, New Jersey , U.S.
+
+Occupation: German-born theoretical physicist who is best known for developing the theory of relativity
+
+Biography:
+---------------------------
+Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist who is best known for developing
+the theory of relativity . Einstein also made important contributions to quantum theory . His mass–energy equivalence
+formula E = mc , which arises from special relativity , has been called "the world's most famous equation". He received
+the 1921 Nobel Prize in Physics for ‹See Tfd› his services to theoretical physics, and especially for his discovery of
+the law of the photoelectric effect .
