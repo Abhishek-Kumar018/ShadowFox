@@ -1,5 +1,5 @@
-import pandas as pd
-import matplotlib.pyplot as plt
+import pandas as pd 
+import matplotlib.pyplot as plt 
 
 weights = {
     "CP": 5,
@@ -105,3 +105,4 @@ plt.grid(axis="y", linestyle="--", alpha=0.7)
 plt.show()
 
 input("\nPress Enter to exit...")
+
